@@ -137,8 +137,8 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start-stack.ps1 -SkipVoiceLoc
 
 工作方式是：
 
-1. 后端扫描 `CODEX_HOME/sessions`，默认就是 `~/.codex/sessions`
-2. 从本地 `.jsonl` 会话文件中提取线程 id、标题、摘要和消息
+1. 后端扫描 `CODEX_HOME/sessions`
+2. 从本地会话文件中提取线程 id、标题、摘要和消息
 3. 网页端继续提问时，消息被发送到同一个本地 Codex 线程 id
 4. 因此电脑端、手机端、网页端、本地 Codex 本质上都在操作同一条线程
 
@@ -171,11 +171,10 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start-stack.ps1 -SkipVoiceLoc
 
 远程刷新由 [scripts/refresh-desktop-thread.ps1](./scripts/refresh-desktop-thread.ps1) 完成，核心逻辑是：
 
-1. 找到当前运行中的 Codex Desktop 主窗口
-2. 通过桌面主程序 `app\Codex.exe` 打开目标线程 deeplink
-3. 用 Codex 内置的“复制当前线程 deeplink”快捷键读取桌面当前线程 id
-4. 只有当桌面当前线程 id 与网页选中的线程 id 完全一致时，才继续执行刷新
-5. 执行归档和取消归档，触发桌面端重新加载消息
+1. 通过桌面主程序 `app\Codex.exe` 打开目标线程 deeplink
+2. 通过deeplink锁定当前线程id，执行刷新
+3. 执行归档和取消归档，触发桌面端重新加载消息
+
 
 ### 为什么现在比早期版本更安全
 
