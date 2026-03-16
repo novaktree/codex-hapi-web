@@ -1,0 +1,59 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F8F5EE"/>
+      <stop offset="1" stop-color="#F1FAFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="760" rx="30" fill="url(#bg2)"/>
+
+  <text x="84" y="104" fill="#132238" font-size="42" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">
+    Dual-device same-thread flow
+  </text>
+  <text x="84" y="148" fill="#5B728D" font-size="22" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">
+    Both browser tabs point to the same local Codex thread id.
+  </text>
+
+  <rect x="82" y="204" width="724" height="430" rx="28" fill="#FFFFFF" stroke="#D7E3F3"/>
+  <rect x="82" y="204" width="724" height="50" rx="28" fill="#F4F8FD"/>
+  <circle cx="118" cy="229" r="7" fill="#F87171"/>
+  <circle cx="142" cy="229" r="7" fill="#FBBF24"/>
+  <circle cx="166" cy="229" r="7" fill="#34D399"/>
+  <text x="198" y="235" fill="#4B617A" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">Desktop browser</text>
+
+  <rect x="110" y="280" width="168" height="320" rx="18" fill="#F8FBFF" stroke="#DCE7F3"/>
+  <text x="134" y="312" fill="#4B617A" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Thread list</text>
+  <rect x="128" y="334" width="132" height="54" rx="14" fill="#EAF3FF"/>
+  <rect x="128" y="404" width="132" height="54" rx="14" fill="#FFFFFF" stroke="#DCE7F3"/>
+  <rect x="128" y="474" width="132" height="54" rx="14" fill="#FFFFFF" stroke="#DCE7F3"/>
+  <text x="142" y="367" fill="#0F6CBD" font-size="15" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">019ce7c7...</text>
+  <text x="142" y="437" fill="#7088A3" font-size="15" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">release note</text>
+  <text x="142" y="507" fill="#7088A3" font-size="15" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">frontend tidy</text>
+
+  <rect x="302" y="280" width="472" height="320" rx="18" fill="#FBFDFF" stroke="#DCE7F3"/>
+  <text x="330" y="312" fill="#4B617A" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Current thread</text>
+  <rect x="330" y="338" width="206" height="40" rx="16" fill="#EAF3FF"/>
+  <text x="352" y="364" fill="#0F6CBD" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">继续这个测试线程</text>
+  <rect x="472" y="396" width="232" height="40" rx="16" fill="#132238"/>
+  <text x="496" y="422" fill="#FFFFFF" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">same local thread id</text>
+  <rect x="330" y="454" width="272" height="40" rx="16" fill="#ECFFF8"/>
+  <text x="352" y="480" fill="#157C67" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">phone replies land here too</text>
+  <rect x="330" y="534" width="398" height="22" rx="11" fill="#EEF4FA"/>
+  <rect x="330" y="568" width="298" height="22" rx="11" fill="#EEF4FA"/>
+
+  <rect x="898" y="184" width="266" height="468" rx="34" fill="#132238"/>
+  <rect x="914" y="202" width="234" height="432" rx="26" fill="#FFFFFF"/>
+  <text x="970" y="246" fill="#4B617A" font-size="20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Phone browser</text>
+  <rect x="940" y="286" width="182" height="32" rx="16" fill="#F1F6FC"/>
+  <text x="968" y="307" fill="#7088A3" font-size="15" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">Thread 019ce7c7...</text>
+  <rect x="940" y="346" width="148" height="38" rx="14" fill="#EAF3FF"/>
+  <rect x="1000" y="402" width="122" height="38" rx="14" fill="#132238"/>
+  <rect x="940" y="458" width="164" height="38" rx="14" fill="#ECFFF8"/>
+  <rect x="940" y="552" width="140" height="34" rx="14" fill="#EAF3FF"/>
+  <rect x="1090" y="552" width="32" height="34" rx="10" fill="#0F6CBD"/>
+  <text x="1112" y="575" text-anchor="middle" fill="#FFFFFF" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">↗</text>
+
+  <path d="M808 418C866 418 876 418 898 418" stroke="#0F6CBD" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <rect x="742" y="392" width="142" height="48" rx="18" fill="#FFFFFF" stroke="#BDD7EE"/>
+  <text x="764" y="421" fill="#0F6CBD" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">shared thread</text>
+</svg>

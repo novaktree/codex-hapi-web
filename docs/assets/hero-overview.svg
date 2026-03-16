@@ -1,0 +1,86 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="64" x2="1180" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F4EC"/>
+      <stop offset="0.5" stop-color="#EEF6FF"/>
+      <stop offset="1" stop-color="#E8FFF5"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F6CBD"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" rx="28" fill="url(#bg)"/>
+
+  <circle cx="1048" cy="126" r="92" fill="#D9F6ED"/>
+  <circle cx="1160" cy="534" r="118" fill="#DBECFF"/>
+  <circle cx="188" cy="568" r="84" fill="#FFF0D7"/>
+
+  <rect x="70" y="86" width="420" height="548" rx="28" fill="#FFFFFF" stroke="#D7E3F3"/>
+  <rect x="102" y="122" width="126" height="34" rx="17" fill="#E9F3FF"/>
+  <text x="125" y="145" fill="#0F6CBD" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Codex HAPI Web</text>
+
+  <text x="102" y="218" fill="#132238" font-size="46" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">
+    Same thread on
+  </text>
+  <text x="102" y="272" fill="#132238" font-size="46" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">
+    phone and desktop
+  </text>
+  <text x="102" y="332" fill="#4D6480" font-size="24" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">
+    Reuse the local Codex session you already have.
+  </text>
+  <text x="102" y="366" fill="#4D6480" font-size="24" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">
+    Keep one thread id across browser, mobile and desktop.
+  </text>
+
+  <rect x="102" y="424" width="356" height="66" rx="18" fill="url(#accent)"/>
+  <text x="132" y="466" fill="#FFFFFF" font-size="24" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">
+    Dual-device continuation
+  </text>
+
+  <rect x="102" y="514" width="356" height="66" rx="18" fill="#132238"/>
+  <text x="132" y="556" fill="#FFFFFF" font-size="24" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">
+    Remote refresh for Codex Desktop
+  </text>
+
+  <rect x="566" y="126" width="528" height="356" rx="26" fill="#FFFFFF" stroke="#CFDDEE"/>
+  <rect x="566" y="126" width="528" height="48" rx="26" fill="#F4F8FD"/>
+  <circle cx="600" cy="150" r="7" fill="#F87171"/>
+  <circle cx="624" cy="150" r="7" fill="#FBBF24"/>
+  <circle cx="648" cy="150" r="7" fill="#34D399"/>
+
+  <rect x="592" y="196" width="146" height="258" rx="18" fill="#F7FAFE" stroke="#DFE9F5"/>
+  <text x="618" y="226" fill="#42556F" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Sessions</text>
+  <rect x="608" y="246" width="114" height="46" rx="12" fill="#EAF3FF"/>
+  <rect x="608" y="304" width="114" height="46" rx="12" fill="#FFFFFF" stroke="#D8E6F5"/>
+  <rect x="608" y="362" width="114" height="46" rx="12" fill="#FFFFFF" stroke="#D8E6F5"/>
+  <text x="621" y="274" fill="#0F6CBD" font-size="15" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">thread 019c...</text>
+  <text x="621" y="332" fill="#68829D" font-size="15" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">draft README</text>
+  <text x="621" y="390" fill="#68829D" font-size="15" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">fix desktop sync</text>
+
+  <rect x="760" y="196" width="306" height="258" rx="18" fill="#FBFDFF" stroke="#DFE9F5"/>
+  <text x="786" y="226" fill="#42556F" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Thread 019c...</text>
+  <rect x="786" y="248" width="164" height="38" rx="14" fill="#EAF3FF"/>
+  <text x="806" y="272" fill="#0F6CBD" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">continue on mobile</text>
+  <rect x="870" y="302" width="170" height="38" rx="14" fill="#132238"/>
+  <text x="890" y="326" fill="#FFFFFF" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">same local thread</text>
+  <rect x="786" y="356" width="216" height="38" rx="14" fill="#ECFFF8"/>
+  <text x="806" y="380" fill="#157C67" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">desktop refresh available</text>
+  <rect x="786" y="410" width="244" height="24" rx="12" fill="#EFF5FB"/>
+  <rect x="786" y="444" width="194" height="24" rx="12" fill="#EFF5FB"/>
+
+  <rect x="930" y="458" width="234" height="192" rx="30" fill="#132238"/>
+  <rect x="944" y="474" width="206" height="162" rx="22" fill="#FFFFFF"/>
+  <rect x="962" y="496" width="170" height="14" rx="7" fill="#EAF3FF"/>
+  <rect x="962" y="526" width="118" height="34" rx="12" fill="#EAF3FF"/>
+  <rect x="1008" y="574" width="124" height="34" rx="12" fill="#132238"/>
+  <text x="979" y="548" fill="#0F6CBD" font-size="15" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">phone view</text>
+  <text x="1027" y="597" fill="#FFFFFF" font-size="14" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">send</text>
+
+  <path d="M480 472C576 472 604 560 760 560" stroke="#0F6CBD" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <path d="M904 568C850 568 830 530 780 530" stroke="#14B8A6" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 12"/>
+
+  <rect x="734" y="520" width="152" height="34" rx="17" fill="#FFFFFF" stroke="#BFD6EE"/>
+  <text x="754" y="542" fill="#0F6CBD" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">thread id shared</text>
+</svg>

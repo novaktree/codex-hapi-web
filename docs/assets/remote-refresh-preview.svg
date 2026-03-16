@@ -1,0 +1,64 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F4F8FF"/>
+      <stop offset="1" stop-color="#F8F7F0"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0EA5A4"/>
+      <stop offset="1" stop-color="#2FBF71"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="760" rx="30" fill="url(#bg3)"/>
+
+  <text x="84" y="104" fill="#132238" font-size="42" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">
+    Safe remote refresh for Codex Desktop
+  </text>
+  <text x="84" y="148" fill="#5B728D" font-size="22" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">
+    Verify the current desktop thread id before archive and unarchive.
+  </text>
+
+  <rect x="82" y="206" width="470" height="420" rx="28" fill="#FFFFFF" stroke="#D7E3F3"/>
+  <text x="114" y="252" fill="#42556F" font-size="22" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Web action</text>
+  <rect x="114" y="294" width="212" height="42" rx="16" fill="#EAF3FF"/>
+  <text x="136" y="321" fill="#0F6CBD" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">target thread 019ce7c7...</text>
+  <rect x="114" y="366" width="204" height="58" rx="18" fill="#132238"/>
+  <text x="216" y="402" text-anchor="middle" fill="#FFFFFF" font-size="22" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Refresh desktop</text>
+  <rect x="114" y="466" width="316" height="42" rx="16" fill="#F3F7FB"/>
+  <text x="138" y="493" fill="#667C95" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">1. open deeplink to target thread</text>
+  <rect x="114" y="522" width="316" height="42" rx="16" fill="#F3F7FB"/>
+  <text x="138" y="549" fill="#667C95" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">2. copy current desktop deeplink</text>
+  <rect x="114" y="578" width="316" height="42" rx="16" fill="#F3F7FB"/>
+  <text x="138" y="605" fill="#667C95" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">3. archive and unarchive only if matched</text>
+
+  <rect x="728" y="176" width="438" height="480" rx="28" fill="#FFFFFF" stroke="#D7E3F3"/>
+  <rect x="728" y="176" width="438" height="48" rx="28" fill="#F4F8FD"/>
+  <circle cx="762" cy="200" r="7" fill="#F87171"/>
+  <circle cx="786" cy="200" r="7" fill="#FBBF24"/>
+  <circle cx="810" cy="200" r="7" fill="#34D399"/>
+  <text x="840" y="206" fill="#42556F" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">Codex Desktop</text>
+
+  <rect x="764" y="262" width="366" height="74" rx="22" fill="#F8FBFF" stroke="#DDE8F4"/>
+  <text x="790" y="292" fill="#7088A3" font-size="16" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">Current copied deeplink</text>
+  <text x="790" y="320" fill="#132238" font-size="18" font-family="Consolas, monospace">codex://threads/019ce7c7...</text>
+
+  <rect x="764" y="372" width="170" height="52" rx="18" fill="url(#green)"/>
+  <text x="849" y="405" text-anchor="middle" fill="#FFFFFF" font-size="20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Matched</text>
+
+  <rect x="962" y="372" width="168" height="52" rx="18" fill="#132238"/>
+  <text x="1046" y="405" text-anchor="middle" fill="#FFFFFF" font-size="20" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Refresh now</text>
+
+  <rect x="764" y="468" width="112" height="44" rx="16" fill="#EAF3FF"/>
+  <text x="820" y="496" text-anchor="middle" fill="#0F6CBD" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Archive</text>
+  <rect x="892" y="468" width="112" height="44" rx="16" fill="#FFF4D8"/>
+  <text x="948" y="496" text-anchor="middle" fill="#9A6A00" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Reload</text>
+  <rect x="1020" y="468" width="112" height="44" rx="16" fill="#ECFFF8"/>
+  <text x="1076" y="496" text-anchor="middle" fill="#157C67" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">Unarchive</text>
+
+  <rect x="764" y="552" width="320" height="26" rx="13" fill="#EEF4FA"/>
+  <rect x="764" y="590" width="264" height="26" rx="13" fill="#EEF4FA"/>
+
+  <path d="M552 414C622 414 640 414 728 414" stroke="#0F6CBD" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <rect x="566" y="388" width="132" height="52" rx="18" fill="#FFFFFF" stroke="#BDD7EE"/>
+  <text x="632" y="420" text-anchor="middle" fill="#0F6CBD" font-size="18" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-weight="700">id check</text>
+</svg>
