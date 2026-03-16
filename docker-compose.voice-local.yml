@@ -1,0 +1,14 @@
+services:
+  codex-hapi-voice-local:
+    build:
+      context: ./voice-local
+    container_name: "${CODEX_HAPI_VOICE_CONTAINER_NAME:-codex-hapi-voice-local}"
+    ports:
+      - "${CODEX_HAPI_LOCAL_TRANSCRIPTION_PORT:-8021}:8021"
+    environment:
+      PORT: "8021"
+      WHISPER_MODEL_SIZE: "${WHISPER_MODEL_SIZE:-small}"
+      WHISPER_DEVICE: "${WHISPER_DEVICE:-auto}"
+      WHISPER_COMPUTE_TYPE: "${WHISPER_COMPUTE_TYPE:-int8}"
+      WHISPER_BEAM_SIZE: "${WHISPER_BEAM_SIZE:-5}"
+    restart: unless-stopped
